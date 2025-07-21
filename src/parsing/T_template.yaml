@@ -1,0 +1,32 @@
+ticket_structure:
+  metadata:
+    - ticket_id
+    - title
+    - priority
+    - status
+    - created_date
+    - closed_date
+    - assigned_to
+    - category
+  content:
+    description:
+      - description
+      - problem_statement
+      - expected_behavior
+      - actual_behavior
+    technical_details:
+      - technical_details
+      - error_messages
+      - code_snippets
+      - stack_traces
+    steps:
+      - steps_to_reproduce
+      - attempted_solutions
+    environment:
+      - os_version
+      - browser_version
+      - app_version
+  relations:
+    - parent_ticket
+    - related_tickets
+    - duplicate_of

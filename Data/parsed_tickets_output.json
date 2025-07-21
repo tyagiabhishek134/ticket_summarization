@@ -1,0 +1,600 @@
+{
+  "tickets": [
+    {
+      "ticket_number": 1,
+      "original_data": {
+        "Ticket ID": "TCKT0001",
+        "Title": "Need access to shared drive",
+        "Description": "User is requesting access to Finance folder and shared Jenkins dashboard.",
+        "Priority": "Low",
+        "Status": "Closed",
+        "Created Date": "2025-06-27 00:00:00",
+        "Closed Date": "2025-07-12 00:00:00",
+        "Assigned To": "Greg Sanchez",
+        "Category": "Access Request",
+        "Resolution Notes": "Issue resolved after standard troubleshooting steps.",
+        "month": "2025-06"
+      },
+      "parsed_structure": "ticket:\n  metadata:\n    ticket_id: TCKT0001\n    title: Need access to shared drive\n    priority: Low\n    status: Closed\n    created_date: 2025-06-27 00:00:00\n    closed_date: 2025-07-12 00:00:00\n    assigned_to: Greg Sanchez\n    category: Access Request\n  content:\n    description:\n      description: ['User is requesting access to Finance folder and shared Jenkins dashboard.']\n      problem_statement: ['User is requesting access to Finance folder and shared Jenkins dashboard.']\n    technical_details:\n    steps:\n    environment:\n  relations:\n    related_tickets: ['TCKT0012', 'TCKT0015', 'TCKT0016']"
+    },
+    {
+      "ticket_number": 2,
+      "original_data": {
+        "Ticket ID": "TCKT0002",
+        "Title": "Unable to login to the system",
+        "Description": "User reports inability to log in. Multiple attempts failed with correct credentials.",
+        "Priority": "Critical",
+        "Status": "Closed",
+        "Created Date": "2025-06-10 00:00:00",
+        "Closed Date": "2025-07-12 00:00:00",
+        "Assigned To": "Clayton Rivera",
+        "Category": "Authentication",
+        "Resolution Notes": null,
+        "month": "2025-06"
+      },
+      "parsed_structure": "ticket:\n  metadata:\n    ticket_id: TCKT0002\n    title: Unable to login to the system\n    priority: Critical\n    status: Closed\n    created_date: 2025-06-10 00:00:00\n    closed_date: 2025-07-12 00:00:00\n    assigned_to: Clayton Rivera\n    category: Authentication\n  content:\n    description:\n      description: ['User reports inability to log in. Multiple attempts failed with correct credentials.']\n      problem_statement: ['User reports inability to log in. Multiple attempts failed with correct credentials.']\n    technical_details:\n    steps:\n    environment:\n  relations:\n    related_tickets: ['TCKT0007']"
+    },
+    {
+      "ticket_number": 3,
+      "original_data": {
+        "Ticket ID": "TCKT0003",
+        "Title": "Phishing email received",
+        "Description": "Alert received from firewall for suspicious download on client machine.",
+        "Priority": "Critical",
+        "Status": "Closed",
+        "Created Date": "2025-06-12 00:00:00",
+        "Closed Date": "2025-06-26 00:00:00",
+        "Assigned To": "Tiffany Watkins",
+        "Category": "Security Alert",
+        "Resolution Notes": null,
+        "month": "2025-06"
+      },
+      "parsed_structure": "ticket:\n  metadata:\n    ticket_id: TCKT0003\n    title: Phishing email received\n    priority: Critical\n    status: Closed\n    created_date: 2025-06-12 00:00:00\n    closed_date: 2025-06-26 00:00:00\n    assigned_to: Tiffany Watkins\n    category: Security Alert\n  content:\n    description:\n      description: ['Alert received from firewall for suspicious download on client machine.']\n      problem_statement: ['Alert received from firewall for suspicious download on client machine.']\n    technical_details:\n    steps:\n    environment:\n  relations:\n    related_tickets: []"
+    },
+    {
+      "ticket_number": 4,
+      "original_data": {
+        "Ticket ID": "TCKT0004",
+        "Title": "Error while saving data in CRM",
+        "Description": "Customer relationship app closes unexpectedly when adding new leads.",
+        "Priority": "Medium",
+        "Status": "Closed",
+        "Created Date": "2025-06-21 00:00:00",
+        "Closed Date": "2025-06-21 00:00:00",
+        "Assigned To": "Ruben Palmer",
+        "Category": "Software Bug",
+        "Resolution Notes": null,
+        "month": "2025-06"
+      },
+      "parsed_structure": "ticket:\n  metadata:\n    ticket_id: TCKT0004\n    title: Error while saving data in CRM\n    priority: Medium\n    status: Closed\n    created_date: 2025-06-21 00:00:00\n    closed_date: 2025-06-21 00:00:00\n    assigned_to: Ruben Palmer\n    category: Software Bug\n  content:\n    description:\n      description: ['Customer relationship app closes unexpectedly when adding new leads.']\n      problem_statement: ['Customer relationship app closes unexpectedly when adding new leads.']\n    technical_details:\n    steps:\n    environment:\n  relations:\n    related_tickets: ['TCKT0011', 'TCKT0018', 'TCKT0020']"
+    },
+    {
+      "ticket_number": 5,
+      "original_data": {
+        "Ticket ID": "TCKT0005",
+        "Title": "Unable to connect to VPN",
+        "Description": "Frequent disconnections observed on office Wi-Fi. Speed test results vary drastically.",
+        "Priority": "Medium",
+        "Status": "Closed",
+        "Created Date": "2025-06-02 00:00:00",
+        "Closed Date": "2025-06-10 00:00:00",
+        "Assigned To": "Holly Brown",
+        "Category": "Network Issue",
+        "Resolution Notes": "Issue resolved after standard troubleshooting steps.",
+        "month": "2025-06"
+      },
+      "parsed_structure": "ticket:\n  metadata:\n    ticket_id: TCKT0005\n    title: Unable to connect to VPN\n    priority: Medium\n    status: Closed\n    created_date: 2025-06-02 00:00:00\n    closed_date: 2025-06-10 00:00:00\n    assigned_to: Holly Brown\n    category: Network Issue\n  content:\n    description:\n      description: ['Frequent disconnections observed on office Wi-Fi. Speed test results vary drastically.']\n      problem_statement: ['Frequent disconnections observed on office Wi-Fi. Speed test results vary drastically.']\n    technical_details:\n    steps:\n    environment:\n  relations:\n    related_tickets: ['TCKT0006', 'TCKT0010', 'TCKT0013']"
+    },
+    {
+      "ticket_number": 6,
+      "original_data": {
+        "Ticket ID": "TCKT0006",
+        "Title": "Unable to connect to VPN",
+        "Description": "Frequent disconnections observed on office Wi-Fi. Speed test results vary drastically.",
+        "Priority": "High",
+        "Status": "Closed",
+        "Created Date": "2025-06-03 00:00:00",
+        "Closed Date": "2025-07-01 00:00:00",
+        "Assigned To": "Jason Mckinney",
+        "Category": "Network Issue",
+        "Resolution Notes": null,
+        "month": "2025-06"
+      },
+      "parsed_structure": "ticket:\n  metadata:\n    ticket_id: TCKT0006\n    title: Unable to connect to VPN\n    priority: High\n    status: Closed\n    created_date: 2025-06-03 00:00:00\n    closed_date: 2025-07-01 00:00:00\n    assigned_to: Jason Mckinney\n    category: Network Issue\n  content:\n    description:\n      description: ['Frequent disconnections observed on office Wi-Fi. Speed test results vary drastically.']\n      problem_statement: ['Frequent disconnections observed on office Wi-Fi. Speed test results vary drastically.']\n    technical_details:\n    steps:\n    environment:\n  relations:\n    related_tickets: ['TCKT0005', 'TCKT0010', 'TCKT0013']"
+    },
+    {
+      "ticket_number": 7,
+      "original_data": {
+        "Ticket ID": "TCKT0007",
+        "Title": "Unable to login to the system",
+        "Description": "User reports inability to log in. Multiple attempts failed with correct credentials.",
+        "Priority": "High",
+        "Status": "In Progress",
+        "Created Date": "2025-05-22 00:00:00",
+        "Closed Date": null,
+        "Assigned To": "Jeffrey Schneider",
+        "Category": "Authentication",
+        "Resolution Notes": null,
+        "month": "2025-05"
+      },
+      "parsed_structure": "ticket:\n  metadata:\n    ticket_id: TCKT0007\n    title: Unable to login to the system\n    priority: High\n    status: In Progress\n    created_date: 2025-05-22 00:00:00\n    closed_date: NaT\n    assigned_to: Jeffrey Schneider\n    category: Authentication\n  content:\n    description:\n      description: ['User reports inability to log in. Multiple attempts failed with correct credentials.']\n      problem_statement: ['User reports inability to log in. Multiple attempts failed with correct credentials.']\n    technical_details:\n    steps:\n    environment:\n  relations:\n    related_tickets: ['TCKT0002']"
+    },
+    {
+      "ticket_number": 8,
+      "original_data": {
+        "Ticket ID": "TCKT0008",
+        "Title": "Unable to print PDF files",
+        "Description": "Team printer unable to process print jobs. Document queue stalls indefinitely.",
+        "Priority": "Low",
+        "Status": "In Progress",
+        "Created Date": "2025-06-17 00:00:00",
+        "Closed Date": null,
+        "Assigned To": "Kathleen Davis",
+        "Category": "Printer Issue",
+        "Resolution Notes": "Issue resolved after standard troubleshooting steps.",
+        "month": "2025-06"
+      },
+      "parsed_structure": "ticket:\n  metadata:\n    ticket_id: TCKT0008\n    title: Unable to print PDF files\n    priority: Low\n    status: In Progress\n    created_date: 2025-06-17 00:00:00\n    closed_date: NaT\n    assigned_to: Kathleen Davis\n    category: Printer Issue\n  content:\n    description:\n      description: ['Team printer unable to process print jobs. Document queue stalls indefinitely.']\n      problem_statement: ['Team printer unable to process print jobs. Document queue stalls indefinitely.']\n    technical_details:\n    steps:\n    environment:\n  relations:\n    related_tickets: ['TCKT0019']"
+    },
+    {
+      "ticket_number": 9,
+      "original_data": {
+        "Ticket ID": "TCKT0009",
+        "Title": "Unable to send emails",
+        "Description": "Outlook throws sync errors. Important client mails not received.",
+        "Priority": "Critical",
+        "Status": "Closed",
+        "Created Date": "2025-05-19 00:00:00",
+        "Closed Date": "2025-06-20 00:00:00",
+        "Assigned To": "Bryan Avery",
+        "Category": "Email Issue",
+        "Resolution Notes": null,
+        "month": "2025-05"
+      },
+      "parsed_structure": "ticket:\n  metadata:\n    ticket_id: TCKT0009\n    title: Unable to send emails\n    priority: Critical\n    status: Closed\n    created_date: 2025-05-19 00:00:00\n    closed_date: 2025-06-20 00:00:00\n    assigned_to: Bryan Avery\n    category: Email Issue\n  content:\n    description:\n      description: ['Outlook throws sync errors. Important client mails not received.']\n      problem_statement: ['Outlook throws sync errors. Important client mails not received.']\n    technical_details:\n    steps:\n    environment:\n  relations:\n    related_tickets: []"
+    },
+    {
+      "ticket_number": 10,
+      "original_data": {
+        "Ticket ID": "TCKT0010",
+        "Title": "Wi-Fi disconnects frequently",
+        "Description": "Frequent disconnections observed on office Wi-Fi. Speed test results vary drastically.",
+        "Priority": "High",
+        "Status": "In Progress",
+        "Created Date": "2025-06-17 00:00:00",
+        "Closed Date": null,
+        "Assigned To": "Carmen Peterson",
+        "Category": "Network Issue",
+        "Resolution Notes": null,
+        "month": "2025-06"
+      },
+      "parsed_structure": "ticket:\n  metadata:\n    ticket_id: TCKT0010\n    title: Wi-Fi disconnects frequently\n    priority: High\n    status: In Progress\n    created_date: 2025-06-17 00:00:00\n    closed_date: NaT\n    assigned_to: Carmen Peterson\n    category: Network Issue\n  content:\n    description:\n      description: ['Frequent disconnections observed on office Wi-Fi. Speed test results vary drastically.']\n      problem_statement: ['Frequent disconnections observed on office Wi-Fi. Speed test results vary drastically.']\n    technical_details:\n    steps:\n    environment:\n  relations:\n    related_tickets: ['TCKT0005', 'TCKT0006', 'TCKT0013']"
+    },
+    {
+      "ticket_number": 11,
+      "original_data": {
+        "Ticket ID": "TCKT0011",
+        "Title": "Error while saving data in CRM",
+        "Description": "Customer relationship app closes unexpectedly when adding new leads.",
+        "Priority": "High",
+        "Status": "Closed",
+        "Created Date": "2025-05-26 00:00:00",
+        "Closed Date": "2025-06-09 00:00:00",
+        "Assigned To": "James Garrison",
+        "Category": "Software Bug",
+        "Resolution Notes": null,
+        "month": "2025-05"
+      },
+      "parsed_structure": "ticket:\n  metadata:\n    ticket_id: TCKT0011\n    title: Error while saving data in CRM\n    priority: High\n    status: Closed\n    created_date: 2025-05-26 00:00:00\n    closed_date: 2025-06-09 00:00:00\n    assigned_to: James Garrison\n    category: Software Bug\n  content:\n    description:\n      description: ['Customer relationship app closes unexpectedly when adding new leads.']\n      problem_statement: ['Customer relationship app closes unexpectedly when adding new leads.']\n    technical_details:\n    steps:\n    environment:\n  relations:\n    related_tickets: ['TCKT0004', 'TCKT0018', 'TCKT0020']"
+    },
+    {
+      "ticket_number": 12,
+      "original_data": {
+        "Ticket ID": "TCKT0012",
+        "Title": "Requesting admin privileges",
+        "Description": "User is requesting access to Finance folder and shared Jenkins dashboard.",
+        "Priority": "Medium",
+        "Status": "In Progress",
+        "Created Date": "2025-06-02 00:00:00",
+        "Closed Date": null,
+        "Assigned To": "Diana Brown",
+        "Category": "Access Request",
+        "Resolution Notes": null,
+        "month": "2025-06"
+      },
+      "parsed_structure": "ticket:\n  metadata:\n    ticket_id: TCKT0012\n    title: Requesting admin privileges\n    priority: Medium\n    status: In Progress\n    created_date: 2025-06-02 00:00:00\n    closed_date: NaT\n    assigned_to: Diana Brown\n    category: Access Request\n  content:\n    description:\n      description: ['User is requesting access to Finance folder and shared Jenkins dashboard.']\n      problem_statement: ['User is requesting access to Finance folder and shared Jenkins dashboard.']\n    technical_details:\n    steps:\n    environment:\n  relations:\n    related_tickets: ['TCKT0001', 'TCKT0015', 'TCKT0016']"
+    },
+    {
+      "ticket_number": 13,
+      "original_data": {
+        "Ticket ID": "TCKT0013",
+        "Title": "Unable to connect to VPN",
+        "Description": "Frequent disconnections observed on office Wi-Fi. Speed test results vary drastically.",
+        "Priority": "High",
+        "Status": "Closed",
+        "Created Date": "2025-05-15 00:00:00",
+        "Closed Date": "2025-05-28 00:00:00",
+        "Assigned To": "Jessica James",
+        "Category": "Network Issue",
+        "Resolution Notes": null,
+        "month": "2025-05"
+      },
+      "parsed_structure": "ticket:\n  metadata:\n    ticket_id: TCKT0013\n    title: Unable to connect to VPN\n    priority: High\n    status: Closed\n    created_date: 2025-05-15 00:00:00\n    closed_date: 2025-05-28 00:00:00\n    assigned_to: Jessica James\n    category: Network Issue\n  content:\n    description:\n      description: ['Frequent disconnections observed on office Wi-Fi. Speed test results vary drastically.']\n      problem_statement: ['Frequent disconnections observed on office Wi-Fi. Speed test results vary drastically.']\n    technical_details:\n    steps:\n    environment:\n  relations:\n    related_tickets: ['TCKT0005', 'TCKT0006', 'TCKT0010']"
+    },
+    {
+      "ticket_number": 14,
+      "original_data": {
+        "Ticket ID": "TCKT0014",
+        "Title": "High memory usage noticed",
+        "Description": "System becomes unresponsive during builds. CPU usage spikes noted.",
+        "Priority": "Critical",
+        "Status": "Closed",
+        "Created Date": "2025-06-02 00:00:00",
+        "Closed Date": "2025-06-13 00:00:00",
+        "Assigned To": "Sharon Flores",
+        "Category": "Performance",
+        "Resolution Notes": "Issue resolved after standard troubleshooting steps.",
+        "month": "2025-06"
+      },
+      "parsed_structure": "ticket:\n  metadata:\n    ticket_id: TCKT0014\n    title: High memory usage noticed\n    priority: Critical\n    status: Closed\n    created_date: 2025-06-02 00:00:00\n    closed_date: 2025-06-13 00:00:00\n    assigned_to: Sharon Flores\n    category: Performance\n  content:\n    description:\n      description: ['System becomes unresponsive during builds. CPU usage spikes noted.']\n      problem_statement: ['System becomes unresponsive during builds. CPU usage spikes noted.']\n    technical_details:\n    steps:\n    environment:\n  relations:\n    related_tickets: []"
+    },
+    {
+      "ticket_number": 15,
+      "original_data": {
+        "Ticket ID": "TCKT0015",
+        "Title": "Permission required for Jenkins",
+        "Description": "User is requesting access to Finance folder and shared Jenkins dashboard.",
+        "Priority": "Medium",
+        "Status": "Open",
+        "Created Date": "2025-07-03 00:00:00",
+        "Closed Date": null,
+        "Assigned To": "Mary Ramirez",
+        "Category": "Access Request",
+        "Resolution Notes": "Issue resolved after standard troubleshooting steps.",
+        "month": "2025-07"
+      },
+      "parsed_structure": "ticket:\n  metadata:\n    ticket_id: TCKT0015\n    title: Permission required for Jenkins\n    priority: Medium\n    status: Open\n    created_date: 2025-07-03 00:00:00\n    closed_date: NaT\n    assigned_to: Mary Ramirez\n    category: Access Request\n  content:\n    description:\n      description: ['User is requesting access to Finance folder and shared Jenkins dashboard.']\n      problem_statement: ['User is requesting access to Finance folder and shared Jenkins dashboard.']\n    technical_details:\n    steps:\n    environment:\n  relations:\n    related_tickets: ['TCKT0001', 'TCKT0012', 'TCKT0016']"
+    },
+    {
+      "ticket_number": 16,
+      "original_data": {
+        "Ticket ID": "TCKT0016",
+        "Title": "Permission required for Jenkins",
+        "Description": "User is requesting access to Finance folder and shared Jenkins dashboard.",
+        "Priority": "Medium",
+        "Status": "Open",
+        "Created Date": "2025-06-06 00:00:00",
+        "Closed Date": null,
+        "Assigned To": "George Gibson",
+        "Category": "Access Request",
+        "Resolution Notes": null,
+        "month": "2025-06"
+      },
+      "parsed_structure": "ticket:\n  metadata:\n    ticket_id: TCKT0016\n    title: Permission required for Jenkins\n    priority: Medium\n    status: Open\n    created_date: 2025-06-06 00:00:00\n    closed_date: NaT\n    assigned_to: George Gibson\n    category: Access Request\n  content:\n    description:\n      description: ['User is requesting access to Finance folder and shared Jenkins dashboard.']\n      problem_statement: ['User is requesting access to Finance folder and shared Jenkins dashboard.']\n    technical_details:\n    steps:\n    environment:\n  relations:\n    related_tickets: ['TCKT0001', 'TCKT0012', 'TCKT0015']"
+    },
+    {
+      "ticket_number": 17,
+      "original_data": {
+        "Ticket ID": "TCKT0017",
+        "Title": "IP blocked after VPN login",
+        "Description": "VPN drops after 10 minutes of connection. User is based remotely.",
+        "Priority": "Medium",
+        "Status": "Open",
+        "Created Date": "2025-05-15 00:00:00",
+        "Closed Date": null,
+        "Assigned To": "Kelli Perry",
+        "Category": "VPN Issue",
+        "Resolution Notes": "Issue resolved after standard troubleshooting steps.",
+        "month": "2025-05"
+      },
+      "parsed_structure": "ticket:\n  metadata:\n    ticket_id: TCKT0017\n    title: IP blocked after VPN login\n    priority: Medium\n    status: Open\n    created_date: 2025-05-15 00:00:00\n    closed_date: NaT\n    assigned_to: Kelli Perry\n    category: VPN Issue\n  content:\n    description:\n      description: ['VPN drops after 10 minutes of connection. User is based remotely.']\n      problem_statement: ['VPN drops after 10 minutes of connection. User is based remotely.']\n    technical_details:\n    steps:\n    environment:\n  relations:\n    related_tickets: []"
+    },
+    {
+      "ticket_number": 18,
+      "original_data": {
+        "Ticket ID": "TCKT0018",
+        "Title": "Error while saving data in CRM",
+        "Description": "Customer relationship app closes unexpectedly when adding new leads.",
+        "Priority": "High",
+        "Status": "Closed",
+        "Created Date": "2025-05-23 00:00:00",
+        "Closed Date": "2025-06-07 00:00:00",
+        "Assigned To": "Kelly Brown",
+        "Category": "Software Bug",
+        "Resolution Notes": "Issue resolved after standard troubleshooting steps.",
+        "month": "2025-05"
+      },
+      "parsed_structure": "ticket:\n  metadata:\n    ticket_id: TCKT0018\n    title: Error while saving data in CRM\n    priority: High\n    status: Closed\n    created_date: 2025-05-23 00:00:00\n    closed_date: 2025-06-07 00:00:00\n    assigned_to: Kelly Brown\n    category: Software Bug\n  content:\n    description:\n      description: ['Customer relationship app closes unexpectedly when adding new leads.']\n      problem_statement: ['Customer relationship app closes unexpectedly when adding new leads.']\n    technical_details:\n    steps:\n    environment:\n  relations:\n    related_tickets: ['TCKT0004', 'TCKT0011', 'TCKT0020']"
+    },
+    {
+      "ticket_number": 19,
+      "original_data": {
+        "Ticket ID": "TCKT0019",
+        "Title": "Paper jam in printer",
+        "Description": "Team printer unable to process print jobs. Document queue stalls indefinitely.",
+        "Priority": "Low",
+        "Status": "Open",
+        "Created Date": "2025-06-29 00:00:00",
+        "Closed Date": null,
+        "Assigned To": "Michelle Dillon",
+        "Category": "Printer Issue",
+        "Resolution Notes": null,
+        "month": "2025-06"
+      },
+      "parsed_structure": "ticket:\n  metadata:\n    ticket_id: TCKT0019\n    title: Paper jam in printer\n    priority: Low\n    status: Open\n    created_date: 2025-06-29 00:00:00\n    closed_date: NaT\n    assigned_to: Michelle Dillon\n    category: Printer Issue\n  content:\n    description:\n      description: ['Team printer unable to process print jobs. Document queue stalls indefinitely.']\n      problem_statement: ['Team printer unable to process print jobs. Document queue stalls indefinitely.']\n    technical_details:\n    steps:\n    environment:\n  relations:\n    related_tickets: ['TCKT0008']"
+    },
+    {
+      "ticket_number": 20,
+      "original_data": {
+        "Ticket ID": "TCKT0020",
+        "Title": "Application crashes on launch",
+        "Description": "Customer relationship app closes unexpectedly when adding new leads.",
+        "Priority": "Critical",
+        "Status": "Closed",
+        "Created Date": "2025-07-05 00:00:00",
+        "Closed Date": "2025-07-06 00:00:00",
+        "Assigned To": "Elizabeth Chase",
+        "Category": "Software Bug",
+        "Resolution Notes": null,
+        "month": "2025-07"
+      },
+      "parsed_structure": "ticket:\n  metadata:\n    ticket_id: TCKT0020\n    title: Application crashes on launch\n    priority: Critical\n    status: Closed\n    created_date: 2025-07-05 00:00:00\n    closed_date: 2025-07-06 00:00:00\n    assigned_to: Elizabeth Chase\n    category: Software Bug\n  content:\n    description:\n      description: ['Customer relationship app closes unexpectedly when adding new leads.']\n      problem_statement: ['Customer relationship app closes unexpectedly when adding new leads.']\n    technical_details:\n    steps:\n    environment:\n  relations:\n    related_tickets: ['TCKT0004', 'TCKT0011', 'TCKT0018']"
+    }
+  ],
+  "analysis": {
+    "overall": {
+      "avg_resolution_time": 366.0,
+      "median_resolution_time": 336.0,
+      "min_resolution_time": 0.0,
+      "max_resolution_time": 768.0,
+      "total_tickets": 20,
+      "closed_tickets": 12,
+      "open_tickets": 8
+    },
+    "by_category": {
+      "Access Request": {
+        "avg_resolution_time": 360.0,
+        "median_resolution_time": 360.0,
+        "ticket_count": 1
+      },
+      "Authentication": {
+        "avg_resolution_time": 768.0,
+        "median_resolution_time": 768.0,
+        "ticket_count": 1
+      },
+      "Security Alert": {
+        "avg_resolution_time": 336.0,
+        "median_resolution_time": 336.0,
+        "ticket_count": 1
+      },
+      "Software Bug": {
+        "avg_resolution_time": 180.0,
+        "median_resolution_time": 180.0,
+        "ticket_count": 4
+      },
+      "Network Issue": {
+        "avg_resolution_time": 392.0,
+        "median_resolution_time": 312.0,
+        "ticket_count": 3
+      },
+      "Email Issue": {
+        "avg_resolution_time": 768.0,
+        "median_resolution_time": 768.0,
+        "ticket_count": 1
+      },
+      "Performance": {
+        "avg_resolution_time": 264.0,
+        "median_resolution_time": 264.0,
+        "ticket_count": 1
+      }
+    },
+    "by_priority": {
+      "Low": {
+        "avg_resolution_time": 360.0,
+        "median_resolution_time": 360.0,
+        "ticket_count": 1
+      },
+      "Critical": {
+        "avg_resolution_time": 432.0,
+        "median_resolution_time": 336.0,
+        "ticket_count": 5
+      },
+      "Medium": {
+        "avg_resolution_time": 96.0,
+        "median_resolution_time": 96.0,
+        "ticket_count": 2
+      },
+      "High": {
+        "avg_resolution_time": 420.0,
+        "median_resolution_time": 348.0,
+        "ticket_count": 4
+      }
+    },
+    "long_running_tickets": []
+  },
+  "priority_analysis": {
+    "priority_distribution": {
+      "High": 6,
+      "Medium": 6,
+      "Critical": 5,
+      "Low": 3
+    },
+    "category_priority_mapping": {
+      "Access Request": {
+        "current_distribution": {
+          "Medium": 3,
+          "Low": 1
+        },
+        "suggested_default": "Medium"
+      },
+      "Authentication": {
+        "current_distribution": {
+          "Critical": 1,
+          "High": 1
+        },
+        "suggested_default": "High"
+      },
+      "Security Alert": {
+        "current_distribution": {
+          "Critical": 1
+        },
+        "suggested_default": "Critical"
+      },
+      "Software Bug": {
+        "current_distribution": {
+          "High": 2,
+          "Medium": 1,
+          "Critical": 1
+        },
+        "suggested_default": "High"
+      },
+      "Network Issue": {
+        "current_distribution": {
+          "High": 3,
+          "Medium": 1
+        },
+        "suggested_default": "High"
+      },
+      "Printer Issue": {
+        "current_distribution": {
+          "Low": 2
+        },
+        "suggested_default": "Low"
+      },
+      "Email Issue": {
+        "current_distribution": {
+          "Critical": 1
+        },
+        "suggested_default": "Medium"
+      },
+      "Performance": {
+        "current_distribution": {
+          "Critical": 1
+        },
+        "suggested_default": "High"
+      },
+      "VPN Issue": {
+        "current_distribution": {
+          "Medium": 1
+        },
+        "suggested_default": "Medium"
+      }
+    },
+    "suggested_priority_changes": [
+      {
+        "ticket_id": "TCKT0001",
+        "current_priority": "Low",
+        "suggested_priority": "High",
+        "category": "Access Request",
+        "reason": "Based on keywords and category patterns. Found 1 keywords matching High priority."
+      },
+      {
+        "ticket_id": "TCKT0004",
+        "current_priority": "Medium",
+        "suggested_priority": "Critical",
+        "category": "Software Bug",
+        "reason": "Based on keywords and category patterns. Found 1 keywords matching Critical priority."
+      },
+      {
+        "ticket_id": "TCKT0005",
+        "current_priority": "Medium",
+        "suggested_priority": "High",
+        "category": "Network Issue",
+        "reason": "Based on keywords and category patterns. Found 0 keywords matching High priority."
+      },
+      {
+        "ticket_id": "TCKT0007",
+        "current_priority": "High",
+        "suggested_priority": "Critical",
+        "category": "Authentication",
+        "reason": "Based on keywords and category patterns. Found 1 keywords matching Critical priority."
+      },
+      {
+        "ticket_id": "TCKT0011",
+        "current_priority": "High",
+        "suggested_priority": "Critical",
+        "category": "Software Bug",
+        "reason": "Based on keywords and category patterns. Found 1 keywords matching Critical priority."
+      },
+      {
+        "ticket_id": "TCKT0012",
+        "current_priority": "Medium",
+        "suggested_priority": "High",
+        "category": "Access Request",
+        "reason": "Based on keywords and category patterns. Found 1 keywords matching High priority."
+      },
+      {
+        "ticket_id": "TCKT0014",
+        "current_priority": "Critical",
+        "suggested_priority": "High",
+        "category": "Performance",
+        "reason": "Based on keywords and category patterns. Found 1 keywords matching High priority."
+      },
+      {
+        "ticket_id": "TCKT0015",
+        "current_priority": "Medium",
+        "suggested_priority": "High",
+        "category": "Access Request",
+        "reason": "Based on keywords and category patterns. Found 2 keywords matching High priority."
+      },
+      {
+        "ticket_id": "TCKT0016",
+        "current_priority": "Medium",
+        "suggested_priority": "High",
+        "category": "Access Request",
+        "reason": "Based on keywords and category patterns. Found 2 keywords matching High priority."
+      },
+      {
+        "ticket_id": "TCKT0017",
+        "current_priority": "Medium",
+        "suggested_priority": "High",
+        "category": "VPN Issue",
+        "reason": "Based on keywords and category patterns. Found 2 keywords matching High priority."
+      },
+      {
+        "ticket_id": "TCKT0018",
+        "current_priority": "High",
+        "suggested_priority": "Critical",
+        "category": "Software Bug",
+        "reason": "Based on keywords and category patterns. Found 1 keywords matching Critical priority."
+      }
+    ],
+    "priority_trends": {
+      "Critical": {
+        "2025-05": 1,
+        "2025-06": 3,
+        "2025-07": 1
+      },
+      "High": {
+        "2025-05": 4,
+        "2025-06": 2,
+        "2025-07": 0
+      },
+      "Low": {
+        "2025-05": 0,
+        "2025-06": 3,
+        "2025-07": 0
+      },
+      "Medium": {
+        "2025-05": 1,
+        "2025-06": 4,
+        "2025-07": 1
+      }
+    },
+    "keyword_impact": {
+      "access": 4,
+      "request": 4,
+      "fail": 2,
+      "login": 3,
+      "down": 1,
+      "phishing": 1,
+      "error": 4,
+      "add": 4,
+      "important": 1,
+      "high": 1,
+      "permission": 2,
+      "blocked": 1,
+      "crash": 1
+    }
+  }
+}
