@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Ticket Summarization
 
 This project implements an intelligent ticket analysis system that uses transformer models for summarization and question answering on IT support tickets.
@@ -114,3 +115,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ## Models Used
 - Summarization: facebook/bart-large-cnn
 - Question Answering: deepset/roberta-base-squad2
+=======
+# ticket_summarization
+Built a rule-based IT support ticket retrieval system using only inter-ticket relations. Parsed tickets into structured fields and linked them via explicit references and text similarity. Used embeddings for semantic search and retrieved relevant tickets to assist LLM-based summarization
+>>>>>>> c6708fad8a3850313d8dc14af4549387ddd68de8
